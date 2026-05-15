@@ -93,7 +93,9 @@ const scrollRight = () => {
     </h2>
 
     <p className="text-gray-300 text-lg md:text-xl leading-relaxed max-w-2xl mb-10">
-      Tu energía sobre el escenario, inmortalizada.
+      Un registro cinematográfico de tu presentación en Elite,
+      donde cada toma transmite la energía, 
+      la emoción y el impacto visual de una noche inolvidable.
     </p>
 
     <div className="flex flex-wrap gap-5">
