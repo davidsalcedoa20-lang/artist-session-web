@@ -24,3 +24,32 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* SCROLLBAR HORIZONTAL PREMIUM */
+
+.scrollbar-hide::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scrollbar-hide::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-hide::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.15);
+  border-radius: 999px;
+}
+
+.scrollbar-hide::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.35);
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html {
+  scroll-behavior: smooth;
+}
