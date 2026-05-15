@@ -93,15 +93,13 @@ const scrollRight = () => {
     </h2>
 
     <p className="text-gray-300 text-lg md:text-xl leading-relaxed max-w-2xl mb-10">
-      Una experiencia visual y cinematográfica que captura
-      la energía, el performance y la esencia artística
-      del evento en vivo.
+      Tu energía sobre el escenario, inmortalizada.
     </p>
 
     <div className="flex flex-wrap gap-5">
 
       <a
-        href="https://instagram.com/"
+        href="https://instagram.com/diegoruizoficiall"
         target="_blank"
         className="px-8 py-4 border border-white/20 rounded-full hover:bg-white hover:text-black transition"
       >
