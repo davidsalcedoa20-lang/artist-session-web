@@ -27,7 +27,7 @@ const scrollRight = () => {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-5">
 
           <h1 className="text-xl md:text-2xl font-bold tracking-[4px]">
-            DIEGO RUIZ
+            PORTAFOLIO
           </h1>
 
           <nav className="hidden md:flex gap-10 text-sm tracking-[2px]">
@@ -36,16 +36,11 @@ const scrollRight = () => {
               GALERÍA
             </a>
 
-            <a href="#video" className="hover:text-gray-400 transition">
-              VIDEO
-            </a>
-
             <a
-              href="https://instagram.com/diegoruizoficiall"
-              target="_blank"
-              className="hover:text-gray-400 transition"
+             href="#sobre-mi"
+             className="hover:text-gray-400 transition"
             >
-              SOBRE MÍ
+             SOBRE MÍ
             </a>
 
             <a
@@ -69,7 +64,7 @@ const scrollRight = () => {
   {/* IMAGEN */}
 
   <img
-    src="/images/hero.jpg"
+    src="/images/Hero.jpg"
     alt="Artist"
     className="absolute inset-0 w-full h-full object-cover"
   />
@@ -83,30 +78,33 @@ const scrollRight = () => {
   <div className="relative z-10 px-6 md:px-20 pb-24 max-w-5xl">
 
     <p className="text-sm tracking-[5px] text-gray-300 mb-5">
-      LIVE SESSION
+      
     </p>
 
     <h2 className="text-6xl md:text-8xl font-black leading-none mb-8">
-      ARTIST
+      DJ
       <br />
-      LIVE
+      MIGUEL
     </h2>
 
     <p className="text-gray-300 text-lg md:text-xl leading-relaxed max-w-2xl mb-10">
-      Un registro cinematográfico de tu presentación en Elite,
-      donde cada toma transmite la energía, 
-      la emoción y el impacto visual de una noche inolvidable.
+      Mi trayectoria como DJ ha sido un constante proceso de aprendizaje, 
+      evolución y conexión a través de la música. 
+      Aunque esta galería reúne imágenes de mi presentación más reciente, 
+      cada fotografía representa la experiencia acumulada durante años de trabajo, 
+      dedicación y pasión por crear momentos memorables en cada escenario. 
+      Este espacio refleja no solo una noche en particular, 
+      sino el recorrido que me ha llevado hasta aquí.
     </p>
 
     <div className="flex flex-wrap gap-5">
 
       <a
-        href="https://instagram.com/diegoruizoficiall"
-        target="_blank"
-        className="px-8 py-4 border border-white/20 rounded-full hover:bg-white hover:text-black transition"
-      >
-        SOBRE MÍ
-      </a>
+  href="#sobre-mi"
+  className="px-8 py-4 border border-white/20 rounded-full hover:bg-white hover:text-black transition"
+>
+  SOBRE MÍ
+</a>
 
       <a
         href="https://drive.google.com/drive/folders/1Cf3ju_kk60u9tZ3xQwl9nRYzy4uz2cMB?usp=sharing"
@@ -121,7 +119,149 @@ const scrollRight = () => {
   </div>
 
 </section>
+<section
+  id="sobre-mi"
+  className="w-full py-28 px-6 md:px-20 bg-black text-white"
+>
+  <div className="max-w-7xl mx-auto">
 
+    <p className="text-sm tracking-[5px] text-gray-500 mb-4">
+      SOBRE MÍ
+    </p>
+
+    <h2 className="text-4xl md:text-6xl font-bold mb-16">
+      MIGUEL TOLOZA DJ
+    </h2>
+
+    <div className="grid lg:grid-cols-2 gap-16 items-center">
+
+      <div>
+        <img
+          src="/images/mail.jpg"
+          alt="Miguel Toloza DJ"
+          className="w-full rounded-[30px] object-cover"
+        />
+      </div>
+
+      <div>
+
+        <h3 className="text-2xl md:text-3xl font-semibold mb-6">
+          13 años de trayectoria llevando la música crossover y urbana a escenarios nacionales e internacionales.
+        </h3>
+
+        <p className="text-gray-300 leading-relaxed mb-6">
+          Miguel Toloza DJ cuenta con una trayectoria de 13 años en la industria musical,
+          destacándose por su versatilidad en géneros crossover y urbanos.
+          Su energía en tarima, creatividad y conexión con el público lo han
+          consolidado como uno de los DJs con mayor proyección en la región.
+        </p>
+
+        <p className="text-gray-300 leading-relaxed mb-8">
+          A lo largo de su carrera ha participado en eventos de gran nivel,
+          llevando su propuesta musical a diferentes escenarios y construyendo
+          una identidad artística basada en la pasión, el profesionalismo y la
+          constante evolución.
+        </p>
+
+        <div className="grid grid-cols-2 gap-4">
+
+          <div className="border border-white/10 rounded-3xl p-6">
+            <h4 className="text-4xl font-bold mb-2">13+</h4>
+            <p className="text-gray-400 text-sm">
+              Años de trayectoria
+            </p>
+          </div>
+
+          <div className="border border-white/10 rounded-3xl p-6">
+            <h4 className="text-4xl font-bold mb-2">2025</h4>
+            <p className="text-gray-400 text-sm">
+              World Tour DJ Latin
+            </p>
+          </div>
+
+          <div className="border border-white/10 rounded-3xl p-6">
+            <h4 className="text-4xl font-bold mb-2">TOP</h4>
+            <p className="text-gray-400 text-sm">
+              DJ destacado de la región
+            </p>
+          </div>
+
+          <div className="border border-white/10 rounded-3xl p-6">
+            <h4 className="text-4xl font-bold mb-2">LIVE</h4>
+            <p className="text-gray-400 text-sm">
+              Shows nacionales e internacionales
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div className="mt-20 border border-white/10 rounded-[30px] p-8">
+
+      <h3 className="text-2xl font-semibold mb-8">
+        Artistas destacados
+      </h3>
+
+      <div className="flex flex-wrap gap-4">
+
+        <span className="px-5 py-3 border border-white/10 rounded-full">
+          La Factoria
+        </span>
+
+        <span className="px-5 py-3 border border-white/10 rounded-full">
+          Andy Rivera
+        </span>
+
+        <span className="px-5 py-3 border border-white/10 rounded-full">
+          Sergio Vargas
+        </span>
+
+        <span className="px-5 py-3 border border-white/10 rounded-full">
+          Jean Carlos Centeno
+        </span>
+
+        <span className="px-5 py-3 border border-white/10 rounded-full">
+          Mono Zabaleta
+        </span>
+
+        <span className="px-5 py-3 border border-white/10 rounded-full">
+          Samuel Morales
+        </span>
+
+      </div>
+
+      <div className="mt-10 space-y-6 text-gray-300 leading-relaxed">
+
+        <p>
+          Durante su trayectoria ha compartido escenario y participado en
+          eventos junto a reconocidos artistas nacionales e internacionales.
+          También trabajó junto al participante de Yo Me Llamo Maluma,
+          quien obtuvo el segundo lugar en el reconocido programa
+          Yo Me Llamo Colombia.
+        </p>
+
+        <p>
+          Su talento lo ha llevado a participar y ganar importantes
+          competencias de DJs en Norte de Santander, obteniendo reconocimiento
+          por su técnica, creatividad y capacidad para conectar con el público
+          en cada presentación.
+        </p>
+
+        <p>
+          En 2025 realizó su WORLD TOUR DJ LATIN por el continente europeo,
+          llevando la música latina y urbana a escenarios internacionales y
+          marcando uno de los hitos más importantes de su carrera.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
       {/* GALERÍA */}
 
 <section
@@ -136,7 +276,7 @@ const scrollRight = () => {
     </p>
 
     <h2 className="text-4xl md:text-6xl font-bold">
-      LIVE AT ELITE
+      Recent Show
     </h2>
 
   </div>
@@ -160,32 +300,32 @@ const scrollRight = () => {
     >
 
       <img
-        src="/images/gallery1.jpg"
-        onClick={() => setSelectedImage("/images/gallery1.jpg")}
+        src="/images/Estudio1.jpg"
+        onClick={() => setSelectedImage("/images/Estudio1.jpg")}
         className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
       />
 
       <img
-        src="/images/gallery2.jpg"
-        onClick={() => setSelectedImage("/images/gallery2.jpg")}
+        src="/images/Estudio2.jpg"
+        onClick={() => setSelectedImage("/images/Estudioy2.jpg")}
         className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
       />
 
       <img
-        src="/images/gallery3.jpg"
-        onClick={() => setSelectedImage("/images/gallery3.jpg")}
+        src="/images/Estudio3.jpg"
+        onClick={() => setSelectedImage("/images/Estudio3.jpg")}
         className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
       />
 
       <img
-        src="/images/gallery4.jpg"
-        onClick={() => setSelectedImage("/images/gallery4.jpg")}
+        src="/images/Estudio4.jpg"
+        onClick={() => setSelectedImage("/images/Estudio4.jpg")}
         className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
       />
 
       <img
-        src="/images/gallery5.jpg"
-        onClick={() => setSelectedImage("/images/gallery5.jpg")}
+        src="/images/Estudio5.jpg"
+        onClick={() => setSelectedImage("/images/Estudio5.jpg")}
         className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
       />
 
@@ -203,44 +343,6 @@ const scrollRight = () => {
   </div>
 
 </section>
-
-      {/* VIDEO */}
-
-      <section
-        id="video"
-        className="px-6 md:px-20 py-28"
-      >
-
-        <div className="mb-16">
-
-          <p className="text-sm tracking-[5px] text-gray-500 mb-4">
-            EVENT FILM
-          </p>
-
-          <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            VIDEO RECAP
-          </h2>
-
-        </div>
-
-        <div className="overflow-hidden rounded-[40px] border border-white/10">
-
-          <video
-            controls
-            className="w-full"
-            poster="/images/hero.jpg"
-          >
-
-            <source
-              src="/videos/artist-video.mp4"
-              type="video/mp4"
-            />
-
-          </video>
-
-        </div>
-
-      </section>
 
       {/* FOOTER */}
 
